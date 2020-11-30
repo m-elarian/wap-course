@@ -37,7 +37,7 @@ function circleObcity(){
             if(opacity>0.1){
                 opacity-=0.01;
             }
-            console.log(opacity);
+          
             $(elem).css("opacity",opacity);
         });
         $(elem).mouseout(()=>{
